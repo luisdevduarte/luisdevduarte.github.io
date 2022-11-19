@@ -171,48 +171,26 @@ body{
     padding: 40px;
 }
 
-form {
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+.form{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    height: 300px;
 }
 
-form div + div {
-    margin-top: 1em;
-}
-
-label {
-    display: inline-block;
-    width: 200px;
-    text-align: right;
-}
-
-input, textarea, select {
-    font: 1em sans-serif;
+input{
+    margin-top: 5px;
     width: 300px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid #999;
 }
 
-input:focus, textarea:focus {
-    border-color: #000;
+button{
+    margin-bottom: 10px;
 }
 
-textarea {
-    vertical-align: top;
-    height: 5em;
-    resize: vertical;
-}
 
-.button {
-    padding-left: 90px;
-}
-
-button {
-    margin-left: .5em;
+select{
+    width: 300px;
 }
 
 #myBtn {
@@ -223,7 +201,7 @@ button {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #545454;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -232,5 +210,5 @@ button {
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: #d9d9d9;
   }

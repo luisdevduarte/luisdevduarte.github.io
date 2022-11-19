@@ -29,7 +29,7 @@
           </li>
           <li>
             <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-            <span class="text">Luissd31@gmail.com</span>
+            <span class="text">luissd31@gmail.com</span>
           </li>
           <li>
             <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
@@ -104,17 +104,17 @@
     </div>
 
     <div>
-      <form action="#" method="post">
+      <form action="mailto:luissd31@gmail.com" method="post" class="form">
         <div>
-          <label for="nome">Nome:</label>
+          <label for="nome">Nome:</label><br>
           <input type="text" id="nome" name="usuario_nome" />
         </div>
         <div>
-          <label for="email">E-mail:</label>
+          <label for="email">E-mail:</label><br>
           <input type="email" id="email" name="usuario_email" />
         </div>
         <div>
-          <label for="estados">Qual seu estado?</label>
+          <label for="estados">Qual seu estado?</label><br>
           <select id="estado" name="usuario_estados">
             <option value="AC">Acre</option>
             <option value="AL">Alagoas</option>
@@ -147,17 +147,15 @@
           </select>
         </div>
         <div>
-          <label for="cidade">Cidade:</label>
+          <label for="cidade">Cidade:</label><br>
           <input type="cidade" id="cidade" name="usuario_cidade" />
         </div>
         
         <div>
-          <label for="msg">Mensagem:</label>
+          <label for="msg">Mensagem:</label><br>
           <textarea id="msg" name="usuario_msg"></textarea>
-        </div>
-
-        <div class="button">
-          <button type="submit">Enviar</button>
+            <button type="submit" class="button">Enviar</button>
+            <button type="reset" class="button">Reset</button>
         </div>
       </form>
     </div>
